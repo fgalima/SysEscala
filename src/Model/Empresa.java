@@ -1,14 +1,20 @@
 package Model;
 
-
-
 public class Empresa {
 	String cnpj;
 	String inscricaoestadual;
 	String razao;
 	String email;
 	String telefone;
+	int idEnde;
 	
+	
+public int getIdEnde() {
+		return idEnde;
+	}
+	public void setIdEnde(int idEnde) {
+		this.idEnde = idEnde;
+	}
 public String getCnpj() {
 		return cnpj;
 	}
